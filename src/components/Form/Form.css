@@ -1,0 +1,18 @@
+.main{
+    height: 100vh;
+    background-color:white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+ 
+.signIn{
+   height:20rem;
+   width:25rem;
+   background-color: blue;
+   display: block;
+   background-color: white;
+   border: .5px solid black;
+}
