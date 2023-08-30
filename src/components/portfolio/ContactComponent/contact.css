@@ -1,0 +1,45 @@
+.contactPage-container {
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+.contact-form {
+    box-sizing: border-box;
+    display: block;
+    width: 45%;
+    margin: auto;
+}
+.form-title {
+    text-align: center;
+    margin: 30px 0px 20px 0px;
+}
+.contact-form input, textarea {
+    width: 100%;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    outline: none;
+    margin: auto auto 10px auto
+}
+.contact-form label {
+    padding-top: 1rem;
+}
+.send-button, .btn {
+    padding: .5rem;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+.btn {
+    margin-top: 1rem;
+}
+.socialMediaIcons img {
+    width: 46.7px
+}
+@media(max-width:400px) {
+    .contact-form {
+        width: 90%;
+    }
+    .contact-form input, textarea {}
+}
