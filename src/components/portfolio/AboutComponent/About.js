@@ -1,10 +1,12 @@
 import React from "react";
 import "./About.css";
 import { Link } from "react-scroll";
+ 
 
 function About() {
   return (
     <section className="about-section">
+  
       <div className="aboutContainer">
         <div className="about-text">
           <h1>Designer, Front End Developer</h1>
@@ -43,7 +45,7 @@ function About() {
           <li>ReactJs</li>
         </ul>
         <a
-          href="Akil_AL.pdf"
+          href="Akil.pdf"
           download="Example-PDF-document"
           target="_blank"
           rel="noreferrer"

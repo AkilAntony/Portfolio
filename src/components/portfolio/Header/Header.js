@@ -11,14 +11,14 @@ function Header() {
   };
   const changeNavbarColor = () => {
     if (window.scrollY >= 80) {
-      setNavColor("black");
+      setNavColor("#191919");
     } else {
       setNavColor("transparent");
     }
   };
   window.addEventListener("scroll", changeNavbarColor);
   return (
-    <div
+    <nav
       className="navbar"
       onScroll={changeNavbarColor}
       style={{ backgroundColor: navColor }}
@@ -41,6 +41,7 @@ function Header() {
           smooth={true}
           duration={500}
           style={{ cursor: "pointer" }}
+          onClick={toggleMenu}
           className="navLink"
         >
           Projects
@@ -62,7 +63,7 @@ function Header() {
         <div className="line"></div>
         <div className="line"></div>
       </div>
-    </div>
+    </nav>
   );
 }
 

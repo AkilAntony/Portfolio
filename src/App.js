@@ -12,7 +12,7 @@ function App() {
   return (
     <React.Fragment>
       {/* Routes */}
-      <Header />
+   <Header/>
       <About/>
       <section id="projects">
         <h2>My Recent Works</h2>
