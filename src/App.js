@@ -24,7 +24,7 @@ function App() {
             link="https://netflix-clone-f2de6.web.app/"
           />
           <Project
-            title="E-commerce Redesign"
+            title="Weather App"
             description="It's a weather app which displays the current weather based..."
             image="weather.png"
             link="https://weatherapp-865bc.web.app/"
