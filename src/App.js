@@ -19,15 +19,15 @@ function App() {
         <div className="project-container">
           <Project
             title="Netflix Redesign"
-            description="It's a Netflix-inspired design that utilizes React JS ..."
+            description="It's a Netflix-inspired design that utilizes React JS and the..."
             image="netflix.png"
-            link="https://www.example-ecommerce.com"
+            link="https://netflix-clone-f2de6.web.app/"
           />
           <Project
             title="E-commerce Redesign"
-            description="Revamped the user interface of an e-commerce website..."
-            image="project1.jpg"
-            link="https://www.example-ecommerce.com"
+            description="It's a weather app which displays the current weather based..."
+            image="weather.png"
+            link="https://weatherapp-865bc.web.app/"
           />
          
         </div>
