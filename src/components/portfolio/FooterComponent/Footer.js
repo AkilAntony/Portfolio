@@ -3,7 +3,7 @@ import './Footer.css'
 
 function Footer() {
   return (
- <footer>
+ <footer className='py-4 bg-black text-center text-white'>
       <p>&copy; 2023 Akil. All rights reserved.</p>
 </footer>
   );

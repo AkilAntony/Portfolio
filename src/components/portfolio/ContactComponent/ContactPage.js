@@ -23,9 +23,13 @@ function ContactPage() {
     e.target.reset();
   };
   return (
-    <div className="contactPage-container" id="contact">
-      <div className="form-title">
-        <h2>Contact Me</h2>
+    <div className="contactPage-containe bg-white mb-4" id="contact">
+      <div className="form-title pt-3 ">
+         <p className='text-3xl md:text-5xl font-medium 
+                    antialiased text-center text-black md:mb-6 mb-4 mt-12'> 
+        <span className='text-mono'>Contact</span>
+        <span className='font-extrabold' > Me</span>
+      </p>
         
       </div>
       <div className="contact-form">
@@ -61,7 +65,11 @@ function ContactPage() {
             <textarea name="message" className="form-control" />
           </div>
           <div className="send-button">
-            <button className="btn btn-success">Send</button>
+            <button 
+              className="btn bg-black rounded text-white
+                hover:shadow-lg">
+              Send
+            </button>
           </div>
         </form>
       </div>

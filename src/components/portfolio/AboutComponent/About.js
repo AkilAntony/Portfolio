@@ -1,13 +1,13 @@
 import React from "react";
 import "./About.css";
 import { Link } from "react-scroll";
- 
+import Skills from "../../Skill/Skills";
 
 function About() {
   return (
-    <section className="about-section">
+    <div className="about-section bg-white">
   
-      <div className="aboutContainer">
+      {/* <div className="aboutContainer">
         <div className="about-text">
           <h1>Designer, Front End Developer</h1>
           <p>I help People to interact with Web</p>
@@ -21,59 +21,55 @@ function About() {
             <button className="btn btn-light">Learn More</button>
           </Link>
         </div>
-      </div>
-      <div className="about-content" id="about">
-        <div className="about-image">
-          <img src="me.jpg" alt="Profile" />
-        </div>
-      </div>
-      <div className="skills">
-        <h2>Hi, I’m Akil. Nice to meet you.</h2>
-        <p>
-          I'm a certified front-end developer with 1 year of industry
-          experience. My expertise lies in creating captivating user interfaces,
-          blending design aesthetics with functionality. I have a strong command
-          over React.js and Angular
+      </div> */}
+      <div className="about-content 
+        bg-white flex flex-col-reverse md:flex-row h-[100vh] items-center 
+          justify-between md:mr-8 md:ml-8 text-center md:text-left  ml-2 mr-2"  
+          id="about">
+
+        <div className="description text-left">
+          <p className="text-3xl md:text-5xl font-medium antialiased leading-relaxed mb-3">
+            <span className="font-mono">Hello I’am </span>
+            <span className="font-extrabold">Akil A L.</span><br />
+            <span className="font-extrabold"> Frontend </span>
+            <span className="font-mono"> Developer</span><br/>
+            <span className="font-mono"> Based In</span>
+            <span className="font-extrabold"> India</span></p>
+          <p className="text-left ml-3">
+            Highly skilled <strong>Software Engineer</strong> with over <strong>1+ years</strong> of experience in <strong>Front-end web development</strong>, specializing in <strong>HTML5, CSS3,</strong> and <strong>JavaScript</strong>. Proficient in creating visually appealing and engaging user interfaces for web applications, with hands-on experience in <strong>ReactJS</strong>.
         </p>
-        <h3>Skills</h3>
-        <ul>
-          <li>HTML 5</li>
-          <li>CSS 3</li>
-          <li>Bootstrap</li>
-          <li>JavaScript</li>
-          <li>Angular</li>
-          <li>ReactJs</li>
-        </ul>
-        <a
-          href="Akil.pdf"
-          download="Example-PDF-document"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <button className="btn btn-danger">Download CV</button>
-        </a>
-        <div className="techMedia">
+        <div className="socialMedia flex ml-3">
+          <a href="https://www.linkedin.com/in/akil-al/">
+            <img src="linkedin.png" alt="linkedin"
+              className="h-full w-12 hover:scale-110 
+                hover:shadow-lg rounded-lg" />
+          </a>
+          <a href="https://www.facebook.com/akil.al.142/">
+            <img src="facebook.png" alt="facebook"  
+              className="h-full w-12 hover:scale-110 
+                hover:shadow-lg rounded-lg"/>
+          </a>
           <a href="https://github.com/AkilAntony">
-            <img src="/github.png" alt="" />
-          </a>
-          <a href="https://www.linkedin.com/in/akil-a-l-533b38207/">
-            <img
-              src="https://www.freepnglogos.com/uploads/linkedin-in-logo-png-1.png"
-              alt=""
-            />
-          </a>
-          <a href="">
-            <img src="/fb1.png" alt="" />
+            <img src="github.png" alt="" 
+              className="h-full w-12 hover:scale-110 
+                hover:shadow-lg rounded-lg" />
           </a>
           <a href="https://www.instagram.com/mr_ak_i_l/">
-            <img
-              src="https://kuttybooks.com/static/media/InstagramOctDenoiserBeauty_001%20copy.f9ea6da973a665c74937.png"
-              alt=""
-            />
+            <img src="instagram.png" alt="instagram" 
+              className="h-full w-12 hover:scale-110 
+                hover:shadow-lg rounded-lg"/>
           </a>
         </div>
+        </div>
+        <div className="about-image ">
+          <img src="profile.jpg" alt="Profile" className='md:h-full ' />
+        </div>
       </div>
-    </section>
+
+      {/* Skills */}
+      <Skills/>
+      
+    </div>
   );
 }
 
