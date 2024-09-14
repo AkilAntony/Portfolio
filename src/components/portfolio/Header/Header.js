@@ -19,23 +19,22 @@ function Header() {
   window.addEventListener("scroll", changeNavbarColor);
   return (
     <div
-      className="navbar   fixed w-full   shadow-lg "
+      className="navbar fixed w-full shadow-lg  flex items-center justify-between"
       onScroll={changeNavbarColor}
       style={{ backgroundColor: navColor }}
     >
-      <div className="logo text-black  h-full w-12 md:mx-7  ">
+      <div className="logo text-black  h-full w-12 md:mx-7 flex items-center ">
         <img src="logo.png"  target='logo'/>
       </div>
        
-      <div className={`menu ${isOpen ? "open" : ""} flex items-center `} id="navlink">
+      <div className={`menu ${isOpen ? "open" : ""} `} id="navlink">
         <Link
           to="about"
           smooth={true}
           duration={100}
           onClick={toggleMenu}
           style={{ cursor: "pointer" }}
-          className="navLink "
-        >
+          className="navLink ">
           About
         </Link>
         <Link
@@ -44,8 +43,7 @@ function Header() {
           duration={100}
           style={{ cursor: "pointer" }}
           onClick={toggleMenu}
-             className="navLink "
-        >
+             className="navLink " >
           Projects
         </Link>
         <Link
@@ -54,16 +52,14 @@ function Header() {
           duration={100}
           onClick={toggleMenu}
           style={{ cursor: "pointer" }}
-          className="navLink"
-        >
+          className="navLink">
           Contact
         </Link>
         <a
-          href="Akil.pdf"
-          download="Example-PDF-document"
+          href="Akil_Resume.pdf"
+          download="Akil_Resume"
           target="_blank"
-          rel="noreferrer" className="navLink"
-        >
+          rel="noreferrer" className="navLink">
           <button className="bg-black text-white font-bold py-2 px-3 rounded inline-flex items-center gap-2">
             <span>Resume</span>
             <svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
