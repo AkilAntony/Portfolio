@@ -15,7 +15,7 @@ function Experience() {
         <div className='flex flex-col md:flex-row items-center justify-center mx-4 mt-10
                 flex-wrap gap-3'>
             
-            <div className=' md:w-3/5 md:mx-auto  px-4 text-black  w-80 
+            <div className=' md:w-2/1 md:mx-auto  px-4 text-black  w-80 
                     shadow-md hover:shadow-lg rounded-lg mt-2 py-0.5  bg-gray-50'>
                 <div className='flex justify-between items-center flex-wrap'>
                     <div className='flex items-center m-2 gap-2' >
@@ -30,8 +30,8 @@ function Experience() {
                 </div>   
             </div>
 
-            <div className=' md:w-3/5 md:mx-auto px-4 text-black 
-                   w-80 shadow-md hover:shadow-lg rounded-lg mb-3 py-0.5 bg-gray-50'>
+            <div className=' md:w-2/1 md:mx-auto px-4 text-black 
+                   w-80 shadow-md hover:shadow-lg rounded-lg  py-0.5 bg-gray-50'>
                 <div className='flex justify-between items-center flex-wrap'>
                     <div className='flex items-center m-2 gap-2' >
                         <img src="ntt.png" alt="" className=' h-full w-11' />
@@ -43,25 +43,23 @@ function Experience() {
                 <div className='description ml-6 mb-5'>
                     As an Associate Graduate at NTT Ltd, 
                     I took on a key responsibility in creating the user interface for a 
-                    telecom billing application. This involved not only designing visually 
-                    appealing interfaces but also ensuring they were user-friendly and efficient.
+                    telecom billing application.
                 </div>   
             </div>
 
-            <div className=' md:w-3/5 md:mx-auto  px-4 text-black w-80  
+            <div className=' md:w-2/1 md:mx-auto  px-4 text-black w-80  
                     shadow-md hover:shadow-lg rounded-lg mt-2 py-0.5  bg-gray-50'>
                 <div className='flex justify-between items-center flex-wrap'>
                     <div className='flex items-center m-2 gap-2' >
                         <img src="trinity.png" alt="" className=' h-full w-11' />
-                        <div className='text-xl font-bold'>Associate Graduate</div>
+                        <div className='text-xl font-bold'>Intern</div>
                     </div>
                     
                     <div className='ml-6 mb-3  text-sm font-semibold'>Feb 2022- Jul 2022</div>
                 </div>
                 <div className='description ml-6 mb-5'>
                 As an intern, I had the opportunity to delve into the world of web development by 
-                learning to create Single Page Applications (SPAs) using Angular. Throughout this 
-                experience, I gained hands-on expertise in Angular's framework.
+                learning to create Single Page Applications (SPAs) using Angular.
                 </div>   
             </div>
         </div>

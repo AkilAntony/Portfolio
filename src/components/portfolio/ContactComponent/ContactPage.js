@@ -1,6 +1,6 @@
 import React from "react";
 import emailjs from "emailjs-com";
-import "./contact.css";
+ import './contact.css'
 
 function ContactPage() {
   const sendEmail = (e) => {
@@ -23,7 +23,8 @@ function ContactPage() {
     e.target.reset();
   };
   return (
-    <div className="contactPage-containe bg-white mb-4" id="contact">
+    <div className="contactPage-containe bg-white h-[100vh] flex
+        flex-col items-center justify-center mx-4 mt-16" id="contact">
       <div className="form-title pt-3 ">
          <p className='text-3xl md:text-5xl font-medium 
                     antialiased text-center text-black md:mb-6 mb-4 mt-12'> 
@@ -32,14 +33,14 @@ function ContactPage() {
       </p>
         
       </div>
-      <div className="contact-form">
-        <form onSubmit={sendEmail}>
+      <div className="contact-form ">
+        <form onSubmit={sendEmail} className="flex flex-col gap-3">
           <div className="name">
             <label htmlFor="fullName">Full Name</label>
             <br />
             <input
               type="text"
-              className="form-control"
+              className="form-control border border-stone-300"
               name="fullName"
               id="fullName"
             />
@@ -47,7 +48,7 @@ function ContactPage() {
           <div className="mail">
             <label htmlFor="mail">Email</label>
             <br />
-            <input type="email" className="form-control" name="email" id="" />
+            <input type="email" className="form-control border border-stone-300" name="email" id="" />
           </div>
           <div className="number">
             <label htmlFor="phoneNumber">Phone Number</label>
@@ -55,14 +56,14 @@ function ContactPage() {
             <input
               type="text"
               name="phoneNumber"
-              className="form-control"
+              className="form-control border border-stone-300"
               id="phoneNumber"
             />
           </div>
           <div className="message">
             <label htmlFor="message">Message</label>
             <br />
-            <textarea name="message" className="form-control" />
+            <textarea name="message" className="form-control border border-stone-300" />
           </div>
           <div className="send-button">
             <button 

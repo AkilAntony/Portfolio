@@ -6,3 +6,14 @@
 #about {
   height: 100vh;
 }
+.about-image img {
+  width: 150dvb;
+  aspect-ratio: 1;
+  image-rendering: pixelated;
+  border-radius: 500%;
+}
+/* @media (max-width: 400px) {
+  .about-content {
+    margin-top: 100px;
+  }
+} */

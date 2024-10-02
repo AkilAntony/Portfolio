@@ -9,7 +9,7 @@ function About() {
   
       <div className="about-content 
         bg-white flex items-center justify-center md:mx-10 
-        flex-wrap-reverse lg:flex-nowrap mx-4"  
+        flex-wrap-reverse lg:flex-nowrap mx-4 mt-20 md-my-0"  
           id="about">
 
         <div className="description text-left mx-4">
@@ -22,10 +22,10 @@ function About() {
             <span className="font-extrabold"> India</span>
           </p>
           <p className="text-left ml-3">
-            Highly skilled <strong>Software Engineer</strong> 
+            Highly skilled <strong>Software Engineer </strong> 
             with over <strong>1+ years</strong> of experience in 
-            <strong>Front-end web development</strong>, specializing in 
-            <strong>HTML5, CSS3,</strong> and <strong>JavaScript</strong>. 
+            <strong> Front-end web development</strong>, specializing in 
+            <strong> HTML5, CSS3,</strong> and <strong>JavaScript</strong>. 
             Proficient in creating visually appealing and engaging user interfaces for web 
             pplications, with hands-on experience in <strong>ReactJS</strong>.
           </p>
@@ -53,7 +53,7 @@ function About() {
           </div>
         </div>
         <div className="about-image ">
-          <img src="profile.jpg" alt="Profile" className='md:h-full ' />
+          <img src="123.jpg" alt="Profile" className=' ' />
         </div>
       </div>
       

@@ -15,7 +15,8 @@ function Project() {
     {title:'BMI Calculator', image:BMI,link:'https://akilantony.github.io/BMI-Calculator/'}]
 
   return (
-    <div className='flex flex-col mx-4 md:mx-10 min-h-[100vh]' id = 'projects'>
+    <div className='flex flex-col mx-4 md:mx-10 min-h-[100vh]' 
+        id = 'projects'>
       <div>
         <p className='text-3xl md:text-5xl font-medium 
                     antialiased text-center text-black md:mb-6 mb-4 mt-12'> 
